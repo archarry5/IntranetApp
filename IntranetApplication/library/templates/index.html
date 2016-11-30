@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+	{{ block.super }} :: Index Page
+{% endblock title %}
+
+{% block body %}
+	<br>
+  <div class="row">
+	{% for counter in "1234" %}	  		
+	    <div class="col-md-2">
+	    	<div style='border: solid 1px silver;'>&nbsp;</div>
+		</div>
+	{% endfor %}  	
+  </div>
+
+{% endblock body %}

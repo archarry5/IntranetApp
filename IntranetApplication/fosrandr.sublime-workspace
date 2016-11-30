@@ -1,0 +1,1576 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"For",
+				"ForeignKey"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"tag",
+				"tag\tDjango template tag"
+			],
+			[
+				"Ob",
+				"OBJECT_STATUS_CHOICES"
+			],
+			[
+				"OB",
+				"OBJECT_STATUS_CHOICES"
+			],
+			[
+				"hei",
+				"max-height"
+			],
+			[
+				"block",
+				"block\tDjango template block"
+			],
+			[
+				"Http",
+				"HttpResponseRedirect"
+			],
+			[
+				"an",
+				"annotation_title"
+			],
+			[
+				"uni",
+				"__unicode__"
+			],
+			[
+				"is",
+				"is_authenticated"
+			],
+			[
+				"cus",
+				"cust_id"
+			],
+			[
+				"data",
+				"data_store"
+			],
+			[
+				"svm",
+				"svm_engine"
+			],
+			[
+				"X",
+				"X_Ord"
+			],
+			[
+				"from",
+				"from_records"
+			],
+			[
+				"ex",
+				"extract_params"
+			],
+			[
+				"read",
+				"read_csv"
+			],
+			[
+				"de",
+				"delimiter"
+			],
+			[
+				"name",
+				"namegender"
+			],
+			[
+				"def",
+				"defaultdict"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"md",
+				"md5_returned"
+			],
+			[
+				"ori",
+				"original_md5"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "randr/urls.py",
+			"settings":
+			{
+				"buffer_size": 164,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "fosintranetapp/urls.py",
+			"settings":
+			{
+				"buffer_size": 1087,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "home/urls.py",
+			"settings":
+			{
+				"buffer_size": 118,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "home/views.py",
+			"settings":
+			{
+				"buffer_size": 159,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "home/templates/index.html",
+			"settings":
+			{
+				"buffer_size": 236,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "randr/models.py",
+			"settings":
+			{
+				"buffer_size": 1171,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/models.py",
+			"settings":
+			{
+				"buffer_size": 1353,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "randr/views.py",
+			"settings":
+			{
+				"buffer_size": 924,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "randr/templates/randr/index.html",
+			"settings":
+			{
+				"buffer_size": 178,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "randr/templates/randr/vote.html",
+			"settings":
+			{
+				"buffer_size": 870,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "v"
+			}
+		},
+		{
+			"file": "randr/templates/randr/2parts.html",
+			"settings":
+			{
+				"buffer_size": 684,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "library/views.py",
+			"settings":
+			{
+				"buffer_size": 256,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/urls.py",
+			"settings":
+			{
+				"buffer_size": 133,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "library/templates/library/book_list.html",
+			"settings":
+			{
+				"buffer_size": 546,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "hiring new people - CT Wizard gap\nInnovation - forms dev\n\nmyvoice\n\n\nwe can quickly hire in matter of weeks.\ncontract to hire - it's going to cost us XX USD/week \n\n---------\nHi David - \n\nIn continiouation of our discussion about ramping up a new team to work on CT Wizard gap management. To build a team of about 10 associates quickly, I have identified following options. \n\nOption 1: Contract to Hire\nPreferred option. Interview and hire contractors from external vendor in Hyderabad.\nAdvantages\n - No waiting period once interviews are done. Once confirmed, the contractor could be onboard in 1 week.\n - Possibility of hiring the contractor if desired.  \nCost: N/A at this point. discussions are going on. I expect it to be a reasonable premium over our normal blended rate for India.\n\n\nOption 2: Lateral movement\nWhat it means - Getting people from teams who may have additional capacity. e.g. Lead services team is now working on CRM for forseeable future.\nCost: Same as other India cost/associate.\nTime to hire: Approx. 4 weeks (2 weeks to hire and 2 weeks for associate to finish any pending work in existing teams)\nTarget number: We have in-principle approval from management. Actual numbers would vary after discussions with respective team management. \n\nOption 3: Normal hiring of associates already serving notice period.\nWhat it means: Interview and hire engineers already serving notice period in their respective companies and can join within 3 weeks.\nCost: Same as normal India cost. These will be permanent hires.\nTime to Hire - Will only interview candidates who can join in 2-3 weeks or less.\n\n\n",
+			"settings":
+			{
+				"buffer_size": 1611,
+				"line_ending": "Windows",
+				"name": "hiring new people - CT Wizard gap"
+			}
+		},
+		{
+			"file": "library/templates/index.html",
+			"settings":
+			{
+				"buffer_size": 319,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "library/admin.py",
+			"settings":
+			{
+				"buffer_size": 224,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "randr/apps.py",
+			"settings":
+			{
+				"buffer_size": 126,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "randr/admin.py",
+			"settings":
+			{
+				"buffer_size": 170,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "home/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 4161,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n\n\n\n\n\n\n\n\n\nWhats keeping you busy these days?\n - Client decisions/64 bit provisioning issues.\n - Not getting done done kind of feeling.\n\n\nLast Quarter\n - Lot of mistakes made. We felt, \n - harish and rahul - responsible\n\n\n - 1) Harish should have called out all the things - should have taken leadership on this.\n \t- Should bring issues upfront.\n - 2) Rahul - \n - 3) Should have done more design reviews.\n\n\n\nNext steps for Rahul\n - \n\nGoals\n - Started doing in India\n\n\n\nLunch and Learn - \n\n\n",
+			"settings":
+			{
+				"buffer_size": 489,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"syn py",
+				"Set Syntax: Python"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML (Django)"
+			],
+			[
+				"syn dj",
+				"Set Syntax: HTML (Django)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"syn htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"sni dj",
+				"Snippet: Django template block"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indent XML"
+			],
+			[
+				"package contro ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 56.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/CDK_InternalApps/IntranetApplication"
+	],
+	"file_history":
+	[
+		"/C/demo/TestProj/main/templates/main/home.html",
+		"/C/CDK/Work/virtualenvs/FOSIntranet/src/home/templates/base.html",
+		"/C/CDK/Work/virtualenvs/FOSIntranet/src/randr/forms.py",
+		"/C/CDK/Work/virtualenvs/FOSIntranet/src/fosintranetapp/settings.py",
+		"/C/CDK/Work/virtualenvs/FOSIntranet/src/randr/admin.py",
+		"/C/CDK/Work/virtualenvs/FOSIntranet/src/randr/templates/randr/base.html",
+		"/C/CDK/Hiring/Interview/Feedback/Mahesh Pendker.txt",
+		"/C/CDK/Hiring/Interview/Interview-Plan.txt",
+		"/C/Programs/Sublime Text 3/Data/Packages/Djaneiro/Settings/HTML (Django).sublime-settings",
+		"/C/CDK/Work/virtualenvs/FOSIntranet/src/manage.py",
+		"/C/CDK/Work/virtualenvs/FOSIntranet/src/randr/urls.py",
+		"/C/CDK/Work/virtualenvs/FOSIntranet/src/fosintranetapp/urls.py",
+		"/C/CDK/Work/virtualenvs/FOSIntranet/src/fosintranetapp/wsgi.py",
+		"/C/CDK/Work/virtualenvs/FOSIntranet/src/fos_intranet_project/fosintranetapp/__init__.py",
+		"/C/CDK/Work/virtualenvs/FOSIntranet/src/fos_intranet_project/fosintranetapp/urls.py",
+		"/C/CDK/Work/virtualenvs/FOSIntranet/src/fos_intranet_project/fosintranetapp/settings.py",
+		"/C/CDK/Work/virtualenvs/FOSIntranet/src/fos_intranet_project/manage.py",
+		"/C/CDK/Work/FOSIntranetSite/FOSSite/src/requirements.txt",
+		"/C/CDK/Scripts/FOS_RewardsAndRecog/fos_intranet_portal/microblog/app/models.py",
+		"/C/CDK/Scripts/FOS_RewardsAndRecog/fos_intranet_portal/microblog/app/forms.py",
+		"/C/Users/singhm/Desktop/Indent XML/indentxml.py",
+		"/C/Programs/Sublime Text 3/Data/Installed Packages/Indent XML.sublime-package",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Alliance BO/VIN3/clsMakes.cls",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Alliance UI/VIN Old/VinExplosionDatabaseLoad/modGeneral.bas",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Alliance UI/VIN Old/VinExplosionDatabaseLoad/frmVinExplosionDatabaseLoadWizard.Frm",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Alliance UI/VIN Old/VinExplosionDatabaseLoad/clsVinExplosionDatabaseLoad.cls",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Alliance UI/VIN Old/VinExplosionDatabaseLoad/VinExplosionDatabaseLoad.VBP",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Alliance UI/VIN Old/VinExplosionDatabaseLoad/modMain.Bas",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Alliance Setup/SQL Migration Scripts 1.2 to 1.3/Update/Scripts/smsQuotes.sql",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Web1000/Build/Installed files/WebSuite1000.sql",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Program Files - Unused Files/Conversion/DB's.sql",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Alliance BO/WEBVin/Interface.cls",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Dealer Management System Dev/Alliance BO/VIN3/clsExplode.cls",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Alliance BO/VIN3/clsExplode.cls",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Dealer Management System Dev/Alliance UI/VIN/UtilCreateVINSQL/modMain.bas",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Dealer Management System Dev/Alliance UI/VIN/VINDBUpdate/modMain.bas",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Dealer Management System Dev/Alliance UI/SMS/UIsmsAppointments/frmManager.frm",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Dealer Management System Dev/Web1000/Build/Installed files/WebSuite1000.sql",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Dealer Management System Dev/Program Files - Unused Files/Conversion/DB's.sql",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Dealer Management System Dev/Program Files - Unused Files/Maintenance/Scripts/Master_nightly.sql",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Dealer Management System Dev/Alliance BO/VIN3/BOvin.exp",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Dealer Management System Dev/Alliance BO/VIN3/BOvin.vbw",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Dealer Management System Dev/Alliance BO/VIN3/BOvin.vbp",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Dealer Management System Dev/Alliance BO/VIN3/modObjectError.bas",
+		"/C/CDK/Work/Waste Management/Alliance/Dealer Management System Dev/Dealer Management System Dev/Alliance BO/VIN3/clsAttribute.cls",
+		"/C/CDK/Scripts/FOS_RewardsAndRecog/fos_intranet_portal/microblog/config.py",
+		"/C/CDK/Scripts/FOS_RewardsAndRecog/fos_intranet_portal/microblog/app/__init__.py",
+		"/C/CDK/Scripts/FOS_RewardsAndRecog/fos_intranet_portal/microblog/app/views.py",
+		"/C/CDK/Scripts/RubyTest/ikare.rb",
+		"/C/CDK/Scripts/FOS_RewardsAndRecog/fos_intranet_portal/microblog/run.py",
+		"/C/CDK/Scripts/FOS_RewardsAndRecog/fos_intranet_portal/microblog/requirements.txt",
+		"/C/CDK/Scripts/FOS_RewardsAndRecog/src/hello.py",
+		"/C/Users/singhm/Desktop/Never split the difference",
+		"/C/CDK/Work/FOSIntranetSite/FOSSite/src/my_demo/settings.py",
+		"/C/CDK/Work/FOSIntranetSite/FOSSite/src/my_demo/urls.py",
+		"/C/CDK/Work/FOSIntranetSite/FOSSite/fossite/Lib/site-packages/djangocms_forms/views.py",
+		"/C/CDK/Work/FOSIntranetSite/FOSSite/fossite/Lib/site-packages/djangocms_forms/admin.py",
+		"/C/CDK/Hiring/Interview/Feedback/pradeep anikereddy.txt",
+		"/C/Users/singhm/Desktop/test.CSV",
+		"/C/CDK/Hiring/Interview/Feedback/Padmaja Nory",
+		"/C/CDK/Hiring/Interview/Feedback/Muralidhar",
+		"/C/CDK/Hiring/Interview/Feedback/Kaushik Patel",
+		"/C/CDK/Hiring/Interview/Feedback/Mohammad Hamed Akhter",
+		"/C/CDK/Hiring/Interview/Feedback/Ashutosh Bhatnagar",
+		"/C/CDK/Hiring/Interview/Feedback/Satya Prakash Rathore",
+		"/C/CDK/Scripts/LearnGo/hello_world.go",
+		"/C/CDK/Scripts/get-hours-logged-via-jira.py",
+		"/C/CDK/Scripts/fibonacci.py",
+		"/C/Users/singhm/Desktop/Desktop/todo.txt",
+		"/C/CDK/Work/Hackathon2016/Manish/SupportVectorMachines/gender_predicter_svm-2.py",
+		"/C/CDK/Work/Hackathon2016/Susmitha/followuptable.csv",
+		"/C/CDK/Discussion Recordings/Meeting Minutes/Aug2016/Daily Log - 4 Aug",
+		"/C/CDK/Work/Hackathon2016/Manish/RestService/sale_predictor_service.py",
+		"/C/CDK/Work/Hackathon2016/Manish/demo.txt",
+		"/C/CDK/Work/Hackathon2016/Manish/RestService/sample_dataset.db",
+		"/C/CDK/Work/Hackathon2016/Manish/RestService/sample_data.db",
+		"/C/CDK/Work/Hackathon2016/Manish/BabyNamesInput/gen_names_csv.py",
+		"/C/CDK/Work/Hackathon2016/Manish/CSVParser/process_bad_csv.py",
+		"/C/CDK/Work/Hackathon2016/Manish/CSVParser/bad_data.csv",
+		"/C/CDK/Work/Hackathon2016/Manish/CSVParser/xx.csv",
+		"/C/CDK/Work/Hackathon2016/Manish/BabyNamesInput/baby-names-char-500.csv",
+		"/C/CDK/Work/Hackathon2016/Manish/SupportVectorMachines/svm-babyname-60k.pkl",
+		"/C/CDK/Work/Hackathon2016/BabyGenderPredictor/baby-names-60k.csv",
+		"/C/CDK/Work/Hackathon2016/BabyGenderPredictor/baby-names.csv",
+		"/C/Users/singhm/Desktop/pythondemo.py",
+		"/C/CDK/Work/Hackathon2016/Manish/SupportVectorMachines/gender_predicter_svm.py",
+		"/C/CDK/Work/Hackathon2016/Manish/SupportVectorMachines/gender_predicter.py",
+		"/C/CDK/Work/Hackathon2016/Manish/SupportVectorMachines/tutorial2.py",
+		"/C/CDK/Work/Hackathon2016/Manish/SupportVectorMachines/tutorial.py",
+		"/C/CDK/Work/Hackathon2016/PyBrainTest/DSTrain.py",
+		"/C/CDK/Work/Hackathon2016/BabyGenderPredictor/babygender.py",
+		"/C/CDK/Work/Hackathon2016/Manish/pybrain-practice-master/README.md",
+		"/C/CDK/Work/Hackathon2016/Manish/pybrain-practice-master/kin_train.py",
+		"/C/CDK/Work/Hackathon2016/Manish/pybrain-practice-master/kin_validate.py",
+		"/C/CDK/Work/Hackathon2016/Manish/GenderPredictorI3.py",
+		"/C/CDK/Work/Hackathon2016/BabyGenderPredictor/baby-names-2k.csv",
+		"/C/CDK/Work/Hackathon2016/Geethavani/GenderPredictBool.py",
+		"/C/CDK/Work/Hackathon2016/BabyGenderPredictor/baby-names-30.csv",
+		"/C/CDK/Work/Hackathon2016/BabyGenderPredictor/baby-names-500.csv",
+		"/C/CDK/Work/Hackathon2016/BabyGenderPredictor/baby-names-20.csv",
+		"/C/CDK/Discussion Recordings/Meeting Minutes/Waste-Management-TEam-fully-independent",
+		"/C/CDK/Discussion Recordings/Meeting Minutes/Discussion with Harsha",
+		"/C/CDK/Discussion Recordings/Meeting Minutes/Discussion with David Orr",
+		"/C/CDK/Discussion Recordings/Meeting Minutes/July 2016/Daily Log - 25 July 2016",
+		"/C/CDK/Hiring/Interview/Feedback/Shobhit Kumar",
+		"/C/CDK/Hiring/Interview/Feedback/Manohar",
+		"/C/CDK/Discussion Recordings/Meeting Minutes/July 2016/Hackathon-Skillsmapping",
+		"/C/CDK/Discussion Recordings/Meeting Minutes/July 2016/Daily Log - 18 July 2016",
+		"/C/CDK/Discussion Recordings/Meeting Minutes/July 2016/Daily Log - 20 July 2016",
+		"/C/CDK/Discussion Recordings/Meeting Minutes/July 2016/Daily Log - 12 July 2016",
+		"/C/CDK/Discussion Recordings/Meeting Minutes/July 2016/Daily Log - 14 July 2016",
+		"/C/CDK/Hiring/Interview/Feedback/Sanjay Kumar",
+		"/C/CDK/Hiring/Interview/Feedback/Srikanth Vitta",
+		"/C/Users/singhm/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.Outlook/2VBUDBRA/ideas.txt",
+		"/C/CDK/Hiring/Interview/Feedback/Prateek P Katyal",
+		"/C/CDK/Work/CRM/Architecture/Notes - CRM Architecture and Integration.txt",
+		"/C/CDK/Hiring/Interview/Feedback/Interview - Jagan Doddapureddi",
+		"/C/CDK/Performance Measurement/VPI Mid Year Review - 2016/Final Compensation/pwd.txt",
+		"/C/CDK/Discussion Recordings/Meeting Minutes/July 2016/DS Leadership Meeting",
+		"/C/CDK/Discussion Recordings/Meeting Minutes/July 2016/Daily Log - 5 July 2016",
+		"/C/CDK/Discussion Recordings/Meeting Minutes/July 2016/Daily Log - 13 July 2016",
+		"/C/Users/singhm/Downloads/CRM Integrations (5) (1) (2).xml",
+		"/C/Users/singhm/Desktop/CRM Architecture/CRM Integrations (5) (1).xml",
+		"/C/Users/singhm/Downloads/CRM Integrations (5) (1) (4).xml",
+		"/C/Users/singhm/Downloads/CRM Integrations (5) (1) (3).xml",
+		"/C/CDK/Discussion Recordings/Meeting Minutes/July 2016/Daily Log - 11 July 2016",
+		"/C/CDK/Discussion Recordings/Meeting Minutes/July 2016/Daily Log - 4 July 2016",
+		"/C/CDK/Discussion Recordings/Meeting Minutes/June 2016/29-June-Discussion with Sanjay and Holly.txt"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			"C:\\CDK\\Work\\Waste Management\\Alliance\\Dealer Management System Dev",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"body",
+			"media",
+			"h2",
+			"info",
+			"default",
+			"btn-link",
+			"Link",
+			"link",
+			"warning btn-sm",
+			"default",
+			"btn-default ",
+			"info",
+			"success",
+			"x",
+			"li",
+			"vinMakes",
+			"loadappointments",
+			"frmsupplier",
+			"vinModels",
+			"GetFactor",
+			"GetValue",
+			"getfactor",
+			" Val",
+			" Val ",
+			"Val",
+			"GetValue",
+			"GetFactor",
+			"basedir",
+			"oid",
+			"try_login",
+			"$ flask\\Scripts\\",
+			"find_binary",
+			"DJANGOCMS_FORMS_PLUGIN_MODULE",
+			"redis_",
+			"buffer",
+			"name",
+			"data",
+			")",
+			"# print 'expecting 1', clf.predict(",
+			"# print 'expecting 0', clf.predict(",
+			"# print 'expecting 1', clf.predict(",
+			">>> ",
+			"row[",
+			"s1",
+			"'o'",
+			"'u'",
+			"'t'",
+			"'e'",
+			"'g'",
+			"'s'",
+			"'i'",
+			"'n'",
+			"'m'",
+			"'y'",
+			"'r'",
+			"'a'",
+			"'h'",
+			"\t['",
+			">>> ",
+			"...",
+			"Sanjay",
+			"Mukteshwar has played a crucial role towards building ONE-EIGHTY Team. His contribution towards sprint is beyond the current designation. He has been actively participating as a leader not only in his Sprint team but outside the teams as well.\n",
+			"•           ",
+			"Send",
+			"Story Owner",
+			"\the ",
+			"Sujatha ",
+			" his ",
+			" he",
+			"Upender ",
+			"Nag ",
+			"Kireeti",
+			"Aurobindo",
+			"{{his/her}}",
+			"{{him/her}}",
+			"{{he/she}}",
+			"{{name}}",
+			"ONE EIGHTY",
+			"Santosh",
+			"{{him/her}}",
+			"{{his/her}}",
+			"{{he/she}}",
+			"{{name}}",
+			"\the ",
+			" he ",
+			"he ",
+			"Vishwateja",
+			"{{him/her}}",
+			"{{his/her}}",
+			"{{he/she}}",
+			"{{name}}",
+			"{{his/her}}",
+			"{{he/she}}",
+			"{{him/her}}",
+			"{{name}}",
+			"RamaMohan",
+			"her",
+			"She",
+			"Geetha",
+			"\to?? ",
+			"\t? ",
+			"?\t",
+			";",
+			"\t",
+			" ",
+			"-",
+			"\n-----------------",
+			"Answer",
+			"•\t"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			";\\n",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 22,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "randr/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								156,
+								156
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "fosintranetapp/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1087,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1087,
+								1087
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "home/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "home/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "home/templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								222,
+								222
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "randr/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1171,
+								1171
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "library/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								401,
+								401
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "randr/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 924,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "randr/templates/randr/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "randr/templates/randr/vote.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								34
+							]
+						],
+						"settings":
+						{
+							"auto_name": "v",
+							"history_list_is_closing": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "randr/templates/randr/2parts.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								684,
+								684
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "library/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								256,
+								256
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "library/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "library/templates/library/book_list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								468,
+								468
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								787,
+								787
+							]
+						],
+						"settings":
+						{
+							"auto_name": "hiring new people - CT Wizard gap",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "library/templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								319
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "library/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								224,
+								224
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "randr/apps.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								88,
+								88
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "randr/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								170
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "library/templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								319,
+								319
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "library/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1353,
+								1353
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "randr/templates/randr/vote.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								170
+							]
+						],
+						"settings":
+						{
+							"auto_name": "v",
+							"history_list_is_closing": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "home/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								847,
+								847
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 489,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								7
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "fosrandr.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"vote",
+				"randr\\templates\\randr\\vote.html"
+			],
+			[
+				"mod",
+				"randr\\models.py"
+			],
+			[
+				"mode",
+				"library\\models.py"
+			],
+			[
+				"base",
+				"home\\templates\\base.html"
+			],
+			[
+				"model",
+				"library\\models.py"
+			],
+			[
+				"index",
+				"library\\templates\\index.html"
+			],
+			[
+				"list",
+				"library\\templates\\library\\book_list.html"
+			],
+			[
+				"url",
+				"library\\urls.py"
+			],
+			[
+				"view",
+				"library\\views.py"
+			],
+			[
+				"template",
+				"randr\\templates\\randr\\vote.html"
+			],
+			[
+				"set",
+				"fosintranetapp\\settings.py"
+			],
+			[
+				"admin",
+				"library\\admin.py"
+			],
+			[
+				"libmo",
+				"library\\models.py"
+			],
+			[
+				"mo",
+				"randr\\models.py"
+			],
+			[
+				"se",
+				"fosintranetapp\\settings.py"
+			],
+			[
+				"vo",
+				"randr\\templates\\randr\\vote.html"
+			],
+			[
+				"ba",
+				"randr\\templates\\randr\\base.html"
+			],
+			[
+				"for",
+				"randr\\forms.py"
+			],
+			[
+				"",
+				"randr\\templates\\randr\\vote.html"
+			],
+			[
+				"vi",
+				"randr\\views.py"
+			],
+			[
+				"forms",
+				"randr\\forms.py"
+			],
+			[
+				"voe",
+				"randr\\templates\\randr\\vote.html"
+			],
+			[
+				"inde",
+				"randr\\templates\\randr\\index.html"
+			],
+			[
+				"urls",
+				"fosintranetapp\\urls.py"
+			],
+			[
+				"temp",
+				"randr\\templates\\randr\\vote.html"
+			],
+			[
+				"clsex",
+				"Alliance BO\\VIN3\\clsExplode.cls"
+			],
+			[
+				"zi",
+				"Zinnov Session-ADP Office-15 April"
+			],
+			[
+				"was",
+				"Weekly meeting - Waste Management"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": false,
+	"side_bar_visible": false,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

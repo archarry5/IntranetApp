@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}
+	{{ block.super }} :: Index Page
+{% endblock title %}
+
+{% block body %}
+
+	<a href="/randr/vote/"> Vote For a Fellow Associate </a>
+	<br/>
+	
+	<h2> My Recognition</h2>
+	<table border = 2>
+	<thead>
+		<th> Recognized By </th>
+		<th> Recognition to </th>
+		<th> Annotation Title </th>
+	</thead>
+	<tbody>
+	{% for item in recognition_by_me %}
+	<tr>
+		<td> {{ item.recognition_by }} </td>
+		<td> {{ item.associate }} </td>
+		<td> {{ item.annotation_title }} </td>
+	</tr>
+	{% endfor %}
+	</tbody>
+	</table>
+	
+{% endblock body %}

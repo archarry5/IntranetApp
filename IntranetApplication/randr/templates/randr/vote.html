@@ -1,0 +1,44 @@
+{% extends 'randr/2parts.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %}
+	{{ block.super }} :: Vote for awesome work!
+{% endblock title %}
+
+{% block mainbody %}
+
+	<h2>Vote</h2>
+	
+	<form action="/randr/vote/" method='post'>
+		{% csrf_token %}
+		
+		{{ form  | crispy }}
+		
+		<input type="submit" value = 'Submit'>
+	</form>
+    
+	<div id="secret" style='display:none'>{{ associates }}</div>
+
+	<div></div>
+
+{% endblock mainbody %}
+
+
+{% block extrajs %}
+
+	<script type="text/javascript">
+		$("#div_id_recognition_by").hide()
+		$("#id_recognition_by").val( {{ recognitionBy }} )
+		$("#id_recognition_by option[value={{recognitionBy}}]")  
+		$('#div_id_associate').after('<div id="associatemgr" class="control-label"></div>');
+		
+		$('#id_associate').on('change', function() {
+		  var selectedID = this.value; // or $(this).val()
+		  var data = $('#secret').html();
+		  var dic = $.parseJSON(data);
+		  $('#associatemgr').empty()
+		  $('#associatemgr').html("Reporting Manager: <b>" + dic[selectedID] + "</b><br/> <br/>") ;
+		});
+	</script>
+
+{% endblock extrajs %}

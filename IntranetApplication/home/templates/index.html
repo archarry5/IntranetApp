@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}
+	{{ block.super }} :: Index Page - CDKApplication
+{% endblock title %}
+
+{% block body %}
+
+	<h2> Local Environment Variables </h2>
+	{{ os.environ }} 
+	
+{% endblock body %}

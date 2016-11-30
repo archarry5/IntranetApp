@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+	{{ block.super }} :: Books List
+{% endblock title %}
+
+{% block body %}
+	<br>
+  <div class="row">
+	{% for book in object_list %}	  		
+	    <div class="col-md-2">
+	    	<div >
+	    	<center>
+	    		<div><img width='150px' src="{% static book.cover_image.url %}" alt=""></div>
+	    		<div><b>{{book.title}}</b></div> 
+	    	</center>
+	    	</div>
+		</div>
+
+			{% if forloop.counter|divisibleby:6 %}</div><br><div class="row">{% endif %}
+
+	{% endfor %}  	
+  </div>
+
+{% endblock body %}

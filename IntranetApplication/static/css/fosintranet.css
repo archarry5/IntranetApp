@@ -1,0 +1,17 @@
+.header-links
+{
+	color: #173e43;
+	border-bottom: solid 2px #999;
+	font-size: 90%;
+	font-weight: italic;
+	padding-right: 2px;
+	padding-left: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.big-font
+{
+	font-size: 130%;
+	margin-top: 10px;
+}
