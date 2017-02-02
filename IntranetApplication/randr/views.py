@@ -17,30 +17,27 @@ from .models import Recognition
 def index(request):
     import os
     recognition_by_me = Recognition.objects.all().filter(recognition_by = request.META['USERNAME'])
-    #recognition_for_me = Recognition.objects.all().filter(associate = request.META['USERNAME'])
     return render(request, 'randr/index.html', {'recognition_by_me':recognition_by_me})
 
 #@login_required
 def vote(request):
-	if request.method == 'POST':
-		form = RecognitionForm(request.POST)
-		if form.is_valid():
-			form.save()
-			testMessage =  request.META['USERNAME'] + " voted for " + request.POST['associate'] + " with the following annotation " + request.POST['annotation_title'] 
-			messages.success(request, 'Thank You. Your Recognition is successfully Created. ' + testMessage)
-                        
-			return HttpResponseRedirect('/randr/vote/')
-	else:
-		form = RecognitionForm()
-		# also send names of manager along with associate id
-		associates = {obj.employee_id:obj.manager.name if obj.manager else '' for obj in Associate.objects.all()}
-		conn = sqlite3.connect('db.sqlite3')
-                employees = conn.cursor()
-                employees.execute('SELECT employee_id from randr_associate WHERE username = (?) LIMIT 1', (request.META['USERNAME'],))
-                for employee in employees:
-                    recognitionBy = employee[0]
-		#username = {obj.username:obj.employee_id for obj in Associate.objects.all()}
-	return render(request, 'randr/vote.html', {'form':form, 'associates':dumps(associates), 'recognitionBy': recognitionBy})
+    if request.method == 'POST':
+        form = RecognitionForm(request.POST)
+        if form.is_valid():
+            form.save()
+            testMessage =  request.META['USERNAME'] + " voted for " + request.POST['associate'] + " with the following annotation " + request.POST['annotation_title'] 
+            messages.success(request, 'Thank You. Your Recognition is successfully Created. ' + testMessage)            
+        return HttpResponseRedirect('/randr/vote/')
+    else:
+        form = RecognitionForm()
+        # also send names of manager along with associate id
+        associates = {obj.employee_id:obj.manager.name if obj.manager else '' for obj in Associate.objects.all()}
+        conn = sqlite3.connect('db.sqlite3')
+        employees = conn.cursor()
+        employees.execute('SELECT employee_id from randr_associate WHERE username = (?) LIMIT 1', (request.META['USERNAME'],))
+        for employee in employees:
+            recognitionBy = employee[0]
+    return render(request, 'randr/vote.html', {'form':form, 'associates':dumps(associates), 'recognitionBy': recognitionBy})
 
 
 def data(request):
@@ -65,13 +62,6 @@ def data(request):
     for row in c:
         print row
     return HttpResponse("Records Inserted Successfully")
-
-
-
-
-
-
-
 
 
 
