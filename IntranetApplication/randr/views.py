@@ -13,20 +13,58 @@ from django.contrib.auth.decorators import login_required
 from .models import Associate
 from .forms import RecognitionForm
 from .models import Recognition
+import smtplib
+from email.MIMEMultipart import MIMEMultipart
+from email.MIMEText import MIMEText
 
 def index(request):
     import os
     recognition_by_me = Recognition.objects.all().filter(recognition_by = request.META['USERNAME'])
     return render(request, 'randr/index.html', {'recognition_by_me':recognition_by_me})
 
-#@login_required
+
 def vote(request):
     if request.method == 'POST':
         form = RecognitionForm(request.POST)
         if form.is_valid():
             form.save()
+            conn = sqlite3.connect('db.sqlite3')
+            employees = conn.cursor()
+            employees.execute('SELECT email,employee_id from randr_associate WHERE username = (?) LIMIT 1', (request.META['USERNAME'],))
+            for x in employees:
+                temp1 = x[0]
+                temp2 = x[1]
+            
+            ass =  conn.cursor()
+            ass.execute('SELECT email,manager_id from randr_associate WHERE employee_id =(?) LIMIT 1', (request.POST['associate'],))
+            for y in ass:
+                temp4 = y[0]
+                temp5 = y[1]
+            ass.execute('SELECT email from randr_associate WHERE employee_id =(?) LIMIT 1', (temp5 ,))
+            for z in ass:
+                temp6 = z[0]
+            fromaddr = temp1
+            toaddr =  temp4
+            cc = temp6
+            msg = MIMEMultipart()
+            msg['From'] = fromaddr
+            msg['To'] = toaddr 
+            msg['Subject'] = "R and R Test MAIL"
+            msg["Cc"] =  cc
+            rcpt = cc.split(",")+ [toaddr]
+            body = request.POST['annotation_title']
+            msg.attach(MIMEText(body, 'plain'))
+            server = smtplib.SMTP('dsrelay.hoffman.ds.adp.com',25)
+            server.ehlo()
+            #server.starttls()
+            text = msg.as_string()
+            server.sendmail(fromaddr,rcpt , text)
+            server.quit()
+            conn = sqlite3.connect('db.sqlite3')
+            
             testMessage =  request.META['USERNAME'] + " voted for " + request.POST['associate'] + " with the following annotation " + request.POST['annotation_title'] 
-            messages.success(request, 'Thank You. Your Recognition is successfully Created. ' + testMessage)            
+            messages.success(request, 'Thank You. Your Recognition is successfully Created. ' +testMessage )
+           
         return HttpResponseRedirect('/randr/vote/')
     else:
         form = RecognitionForm()
@@ -34,15 +72,18 @@ def vote(request):
         associates = {obj.employee_id:obj.manager.name if obj.manager else '' for obj in Associate.objects.all()}
         conn = sqlite3.connect('db.sqlite3')
         employees = conn.cursor()
-        employees.execute('SELECT employee_id from randr_associate WHERE username = (?) LIMIT 1', (request.META['USERNAME'],))
+        employees.execute('SELECT employee_id,email from randr_associate WHERE username = (?) LIMIT 1', (request.META['USERNAME'],))
         for employee in employees:
             recognitionBy = employee[0]
+            temp = employee[1]
+        
+       
     return render(request, 'randr/vote.html', {'form':form, 'associates':dumps(associates), 'recognitionBy': recognitionBy})
 
-
+@login_required
 def data(request):
     XLS_FILE = os.getcwd() + "\\associates"
-    ROW_SPAN = (1, 2)
+    ROW_SPAN = (1, 5)
     COL_SPAN = (1, 7)
     pythoncom.CoInitialize()
     app = Dispatch("Excel.Application")

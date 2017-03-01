@@ -18,11 +18,16 @@ from django.contrib import admin
 from django.conf.urls.static import static
 from django.conf import settings
 
+from django.contrib.staticfiles import views
+
+
 from . import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
 	url(r'^randr/', include('randr.urls')),
 	url(r'^library/', include('library.urls')),
-    url(r'^accounts/login/', views.HelloWorld, name='hello_world'),
+    url(r'^accounts/login/',admin.site.urls ),
     url(r'^', include('home.urls')),
+    
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
