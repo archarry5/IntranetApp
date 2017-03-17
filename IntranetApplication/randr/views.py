@@ -56,7 +56,6 @@ def vote(request):
             msg.attach(MIMEText(body, 'plain'))
             server = smtplib.SMTP('dsrelay.hoffman.ds.adp.com',25)
             server.ehlo()
-            #server.starttls()
             text = msg.as_string()
             server.sendmail(fromaddr,rcpt , text)
             server.quit()
@@ -83,12 +82,20 @@ def vote(request):
 @login_required
 def data(request):
     XLS_FILE = os.getcwd() + "\\associates"
-    ROW_SPAN = (1, 5)
-    COL_SPAN = (1, 7)
     pythoncom.CoInitialize()
     app = Dispatch("Excel.Application")
     app.Visible = True
     ws = app.Workbooks.Open(XLS_FILE).Sheets(1)
+
+    used = ws.UsedRange
+    nrows = used.Row + used.Rows.Count - 1
+    ncols = used.Column + used.Columns.Count - 1
+    #alternative way
+    #lastCol = exclsheet.UsedRange.Columns.Count
+    #lastRow = exclsheet.UsedRange.Rows.Count
+    ROW_SPAN = (1, nrows+1)
+    COL_SPAN = (1, ncols+1)
+    
     exceldata = [[ws.Cells(row, col).Value 
              for col in xrange(COL_SPAN[0], COL_SPAN[1])] 
              for row in xrange(ROW_SPAN[0], ROW_SPAN[1])]

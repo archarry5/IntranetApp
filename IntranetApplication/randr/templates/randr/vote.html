@@ -14,12 +14,24 @@
 		
 		{{ form  | crispy }}
 		
+		
 		<input type="submit" value = 'Submit'>
 	</form>
-    
+    <br/> <br/>
+	
+	<button id = "preview" onclick="modifyTemplate()"> Preview Template" </button>
+		
 	<div id="secret" style='display:none'>{{ associates }}</div>
+		
+	
 
 	<div></div>
+	<br/>
+	
+	<div id = "templ" >
+		<!-- <h1 id ="to"> </h1> -->
+		<h1 id = "custom_msg" > </h1>
+	</div>
 
 {% endblock mainbody %}
 
@@ -39,6 +51,32 @@
 		  $('#associatemgr').empty()
 		  $('#associatemgr').html("Reporting Manager: <b>" + dic[selectedID] + "</b><br/> <br/>") ;
 		});
+		
+		<!--$("preview").on('click', -->
+		function modifyTemplate() {
+			<!-- $("#to").text($("#id_associate").val())  -->
+			$("#custom_msg").text($("#id_annotation_desc").val()) 
+		}
 	</script>
 
 {% endblock extrajs %}
+
+{% block extracss %}
+	
+	<style type="text/css">
+		#templ
+		{
+			background-image: url('/static/images/templates/dream.jpg');
+			width : 100%;
+			height: 100%;
+		}
+		
+		#custom_msg
+		{
+			float: center;
+			position: relative;
+			margin-top: 50%;
+		}
+		
+	</style>
+{% endblock extracss %}
