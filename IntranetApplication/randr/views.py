@@ -22,60 +22,64 @@ def index(request):
     recognition_by_me = Recognition.objects.all().filter(recognition_by = request.META['USERNAME'])
     return render(request, 'randr/index.html', {'recognition_by_me':recognition_by_me})
 
-
 def vote(request):
     if request.method == 'POST':
         form = RecognitionForm(request.POST)
         if form.is_valid():
-            form.save()
-            conn = sqlite3.connect('db.sqlite3')
-            employees = conn.cursor()
-            employees.execute('SELECT email,employee_id from randr_associate WHERE username = (?) LIMIT 1', (request.META['USERNAME'],))
-            for x in employees:
-                temp1 = x[0]
-                temp2 = x[1]
-            
-            ass =  conn.cursor()
-            ass.execute('SELECT email,manager_id from randr_associate WHERE employee_id =(?) LIMIT 1', (request.POST['associate'],))
-            for y in ass:
-                temp4 = y[0]
-                temp5 = y[1]
-            ass.execute('SELECT email from randr_associate WHERE employee_id =(?) LIMIT 1', (temp5 ,))
-            for z in ass:
-                temp6 = z[0]
-            fromaddr = temp1
-            toaddr =  temp4
-            cc = temp6
+            fromaddr = Associate.objects.all().filter(username = request.META['USERNAME'])[0].email
+            toAssociateObj =  Associate.objects.all().filter(employee_id = request.POST['associate'])[0]
+            toaddr = toAssociateObj.email
+            cc = Associate.objects.all().filter(employee_id = toAssociateObj.manager_id)[0].email
+
+            attachment = 'template'
             msg = MIMEMultipart()
             msg['From'] = fromaddr
             msg['To'] = toaddr 
             msg['Subject'] = "R and R Test MAIL"
-            msg["Cc"] =  cc
+            #msg["Cc"] =  cc
             rcpt = cc.split(",")+ [toaddr]
             body = request.POST['annotation_title']
-            msg.attach(MIMEText(body, 'plain'))
+            #msgText = MIMEText('<b>%s</b><br><img src="cid:%s"><br>' % (body, attachment), 'html')
+            html = """\
+            <html>
+            <head>
+                <style>
+                    #div1 {
+                        margin-left: ''50%'';
+                        background-color: ''green'';
+                    }
+                </style>
+                </head>
+               <body>
+                 <div id=""div1""> Hello  %s </div>
+               </body>
+            </html>
+            """ % (body)
+            msgText = MIMEText(html , 'html')
+            msg.attach(msgText)
+
+            #fp = open(attachment, 'rb')
+            #img = MIMEImage(fp.read())
+            #fp.close()
+            #img.add_header('Content-ID', '<{}>'.format(attachment))
+            #msg.attach(img)
+            #msg.attach(MIMEText(body, 'plain'))
+            
             server = smtplib.SMTP('dsrelay.hoffman.ds.adp.com',25)
             server.ehlo()
             text = msg.as_string()
             server.sendmail(fromaddr,rcpt , text)
             server.quit()
-            conn = sqlite3.connect('db.sqlite3')
             
             testMessage =  request.META['USERNAME'] + " voted for " + request.POST['associate'] + " with the following annotation " + request.POST['annotation_title'] 
-            messages.success(request, 'Thank You. Your Recognition is successfully Created. ' +testMessage )
+            messages.success(request, 'Thank You. Your Recognition is successfully Created. ' + testMessage)
            
         return HttpResponseRedirect('/randr/vote/')
     else:
         form = RecognitionForm()
         # also send names of manager along with associate id
         associates = {obj.employee_id:obj.manager.name if obj.manager else '' for obj in Associate.objects.all()}
-        conn = sqlite3.connect('db.sqlite3')
-        employees = conn.cursor()
-        employees.execute('SELECT employee_id,email from randr_associate WHERE username = (?) LIMIT 1', (request.META['USERNAME'],))
-        for employee in employees:
-            recognitionBy = employee[0]
-            temp = employee[1]
-        
+        recognitionBy = Associate.objects.all().filter(username = request.META['USERNAME'])[0].employee_id;
        
     return render(request, 'randr/vote.html', {'form':form, 'associates':dumps(associates), 'recognitionBy': recognitionBy})
 
@@ -90,9 +94,9 @@ def data(request):
     used = ws.UsedRange
     nrows = used.Row + used.Rows.Count - 1
     ncols = used.Column + used.Columns.Count - 1
-    #alternative way
-    #lastCol = exclsheet.UsedRange.Columns.Count
-    #lastRow = exclsheet.UsedRange.Rows.Count
+    # alternative way
+    # lastCol = ws.UsedRange.Columns.Count
+    # lastRow = ws.UsedRange.Rows.Count
     ROW_SPAN = (1, nrows+1)
     COL_SPAN = (1, ncols+1)
     

@@ -13,7 +13,7 @@
 
     <title>
     {% block title %}
-        Dealer Facing Apps - Rewards and Recognition
+        Dealer Facing Apps - here
     {% endblock title %} 
     </title>
 
@@ -70,8 +70,11 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div style='background-color: #eee;'>
       <div class="container">
-        <h3>Dealer Facing Apps > Rewards and Recognition Corner</h3>
-        <p>Recognize great work and great people as you work through everyday.</p>
+        {% block PageTitle %}
+            <h3>Dealer Facing Apps  
+            <!-- > Rewards and Recognition Corner</h3> -->
+            <!-- <p>Recognize great work and great people as you work through everyday.</p> -->
+        {% endblock PageTitle %}
       </div>
     </div>
 

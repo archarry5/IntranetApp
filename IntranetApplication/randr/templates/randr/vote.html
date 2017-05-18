@@ -5,6 +5,12 @@
 	{{ block.super }} :: Vote for awesome work!
 {% endblock title %}
 
+
+{% block PageTitle %}
+	{{ block.super }} :: Rewards and Recognition Corner</h3> 
+   	<p>Recognize great work and great people as you work through everyday.</p>
+{% endblock PageTitle %}
+
 {% block mainbody %}
 
 	<h2>Vote</h2>
@@ -19,7 +25,7 @@
 	</form>
     <br/> <br/>
 	
-	<button id = "preview" onclick="modifyTemplate()"> Preview Template" </button>
+	<button id = "preview" onclick="modifyTemplate()"> Preview Template </button>
 		
 	<div id="secret" style='display:none'>{{ associates }}</div>
 		
@@ -28,8 +34,7 @@
 	<div></div>
 	<br/>
 	
-	<div id = "templ" >
-		<!-- <h1 id ="to"> </h1> -->
+	<div id = "templ" class="wordwrap" >
 		<h1 id = "custom_msg" > </h1>
 	</div>
 
@@ -52,9 +57,9 @@
 		  $('#associatemgr').html("Reporting Manager: <b>" + dic[selectedID] + "</b><br/> <br/>") ;
 		});
 		
-		<!--$("preview").on('click', -->
+		
 		function modifyTemplate() {
-			<!-- $("#to").text($("#id_associate").val())  -->
+			
 			$("#custom_msg").text($("#id_annotation_desc").val()) 
 		}
 	</script>
@@ -66,16 +71,24 @@
 	<style type="text/css">
 		#templ
 		{
-			background-image: url('/static/images/templates/dream.jpg');
+			background-image: url('/static/images/templates/image.jpg');
 			width : 100%;
 			height: 100%;
 		}
 		
 		#custom_msg
 		{
-			float: center;
-			position: relative;
-			margin-top: 50%;
+			margin-left: 10%;
+			margin-right: 10%;
+			margin-top: 10%;
+			
+		}
+		
+		.wordwrap { 
+			white-space: pre-wrap;      /* CSS3 */   
+			white-space: -moz-pre-wrap; /* Firefox */   
+			white-space: -o-pre-wrap;   /* Opera 7 */    
+			word-wrap: break-word;      /* IE */
 		}
 		
 	</style>
