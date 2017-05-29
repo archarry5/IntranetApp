@@ -1,0 +1,27 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+	<style>
+		#myDiv {
+			/*background-color: green;*/
+			background-image:  {{ templImg }}
+		}
+	</style>
+</head>
+
+<body>
+	<v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+           <!-- <v:fill type="tile" src="{% static ''|add:templImg %}" /> -->
+           <v:fill type="tile" src={{templImg}} />
+	</v:background>
+	<div id="myDiv">
+		{{ msg }}
+	</div>
+</body>
+</html>
+
+
+

@@ -65,7 +65,7 @@ ROOT_URLCONF = 'fosintranetapp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [ 'C:/IntranetApp/IntranetApplication/randr/templates/randr/' ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
